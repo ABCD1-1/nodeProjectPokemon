@@ -12,7 +12,7 @@ app
     .use(favicon(__dirname + '/favicon.ico'))   
     .use(bodyParser.json())  // to convert string to JSON
 
-sequelize.initDb()
+// sequelize.initDb()
 
 // Endpoints
 app.get('/', (req, res) => {
