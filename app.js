@@ -15,9 +15,7 @@ app
     .use(cors())
 
 // sequelize.initDb()
-//test
-const a = 0
-a = a+1
+
 
 // Endpoints
 app.get('/', (req, res) => {
